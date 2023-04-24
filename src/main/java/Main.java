@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int howManyPerson = 0;  // Итоговое кол-во человек
-        while (howManyPerson <= 1) {    // Запрос на кол-во
+        while (howManyPerson <= 1) {    // Запрос на кол-во персон
             while (true) {
                 Scanner p = new Scanner(System.in);
                 System.out.println("На сколько человек делить счет?");
